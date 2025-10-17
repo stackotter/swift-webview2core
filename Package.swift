@@ -17,7 +17,7 @@ let package = Package(
             revision: "1a1ef840538526ca121a4928f6a60af736105c03"
         ),
         .package(
-            url: "https://github.com/thebrowsercompany/swift-windowsfoundation",
+            url: "https://github.com/stackotter/swift-windowsfoundation",
             revision: "4ad57d20553514bcb23724bdae9121569b19f172"
         ),
     ],
