@@ -8,14 +8,17 @@ let package = Package(
         .library(name: "WebView2Core", type: .dynamic, targets: ["WebView2Core"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/thebrowsercompany/swift-cwinrt", branch: "main"),
+        .package(
+            url: "https://github.com/thebrowsercompany/swift-cwinrt",
+            revision: "eb46cdb66f770a1e006f9fcfebbf9e99a0fba811"
+        ),
         .package(
             url: "https://github.com/stackotter/swift-uwp",
-            branch: "c9d3fc079aaaa5113cde9a0132278fb83e808599"
+            revision: "1a1ef840538526ca121a4928f6a60af736105c03"
         ),
         .package(
             url: "https://github.com/thebrowsercompany/swift-windowsfoundation",
-            branch: "main"
+            revision: "4ad57d20553514bcb23724bdae9121569b19f172"
         ),
     ],
     targets: [
