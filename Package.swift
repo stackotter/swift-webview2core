@@ -14,7 +14,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/stackotter/swift-uwp",
-            revision: "e3ff9c195775e16b404b82cf6886c5e81d73b6c1"
+            revision: "8128f6615b7c5b46ada289ab6d49d871ca1e13a5"
         ),
         .package(
             url: "https://github.com/stackotter/swift-windowsfoundation",
